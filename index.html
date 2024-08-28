@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Custom Checkbox Challenge</title>
+        <link rel="stylesheet" href="./index.css" />
+        <link rel="icon" type="image/png" href="https://heyflow.com/favicon-16x16.png" />
+    </head>
+    <body>
+        <div id="appRoot">
+            <input class="radioInput" type="radio" name="mode" id="production" value="production" checked />
+            <label class="radioLabel" for="production">Production</label>
+            <input class="radioInput" type="radio" name="mode" id="development" value="development" />
+            <label class="radioLabel" for="development">Development</label>
+            <br class="lineBreak" />
+
+            <label class="checkbox">
+                <input class="checkboxInput" type="checkbox" />
+                <div class="checkboxBox">
+                    <svg class="checkboxIcon" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                        <use href="#checkMarkGlyph" />
+                    </svg>
+                </div>
+                <span class="checkboxText">I agree to the terms and conditions</span>
+            </label>
+        </div>
+
+        <div id="svgFont">
+            <svg id="checkMarkGlyph" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                <rect width="256" height="256" fill="none"></rect>
+                <polyline
+                    points="216 72.005 104 184 48 128.005"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="16"
+                ></polyline>
+            </svg>
+        </div>
+    </body>
+</html>
