@@ -4,7 +4,7 @@ body {
     padding: 0;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    background: skyblue;
+    background: paleturquoise;
 }
 
 #appRoot {
@@ -56,7 +56,7 @@ body {
     top: -12px;
     left: -12px;
     transform: scale(0);
-    transition: transform 150ms;
+    transition: transform 200ms ease-in;
 }
 
 .checkboxIcon {
@@ -78,7 +78,7 @@ body {
 .radioInput {
     margin: 0;
     height: 16px;
-    width: 16px;
+    width: 18px;
     vertical-align: top;
 }
 
